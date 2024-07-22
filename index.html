@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DINNA'S chops</title>
+
+    <style>
+      /* ...........................removing default paddings and margins................ */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /*.................. header styling.......................*/
+      header {
+        background-color: rgb(0, 0, 0);
+      }
+
+      nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 3rem;
+        padding: 4rem;
+      }
+      nav li {
+        list-style: none;
+        align-self: flex-end;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      /* ...................main page styling..................... */
+      main {
+        background-image: url(assets\homebg.png);
+      }
+
+      /* ..............section homepg of main ..............*/
+
+      /* buttons */
+
+      #order {
+        background-color: blueviolet;
+        padding: 3rem;
+      }
+      /* .........section hotest snacks in the menu........ */
+      /* ...........section........... */
+
+      /* ............................................footer styling........................ */
+      .footercontact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 9rem;
+        padding-right: 9rem;
+      }
+      .footercontact ul li {
+        list-style: none;
+      }
+      .footercontact ul li a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .copyright {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- banner -->
+
+      <!-- navigation panel -->
+      <nav>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">MENU</a></li>
+          <li><a href="">ABOUT US</a></li>
+          <li><a href=""> CONTACT US</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+      <section>
+        <h1>DINNA'S CHOPS IS YOUR ONE STOP SNACK PLUG...</h1>
+        <button id="order">PLACE ORDER</button>
+        <button id="contact">CONTACT</button>
+        <button id="distrib">BECOME A DISTRIBUTOR</button>
+      </section>
+    </main>
+
+    <hr />
+
+    <!-- footer -->
+    <footer>
+      <section class="footercontact">
+        <ul>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+        </ul>
+        <ul>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+        </ul>
+        <ul>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+          <li><a href="">contacts</a></li>
+        </ul>
+      </section>
+      <section class="copyright">
+        Designed by WECONET technologies &copy 2024
+      </section>
+    </footer>
+  </body>
+</html>
