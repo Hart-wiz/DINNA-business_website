@@ -1,9 +1,6 @@
-/* ...........................removing default paddings and margins................ */
-* {
-  margin: 0;
-  padding: 0;
-}
+/* ...........................import css reset................ */
 
+@import url(reset.css);
 /*.................. header styling.......................*/
 body {
 }
@@ -35,7 +32,7 @@ main {
       rgba(218, 165, 32, 0.281),
       rgba(218, 165, 32, 0.952)
     ),
-    url("assets/homebg.png");
+    url("../assets/homebg.png");
   background-size: cover;
   min-height: 100%;
   padding: 3%;
@@ -49,7 +46,17 @@ main {
 .front .ads {
   font-size: 5rem;
   text-align: left;
-  width: 60%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.ads span {
+  font-size: 3rem;
+  font-style: italic;
+}
+.ads p {
+  font-size: 2rem;
+  font-style: italic;
 }
 /* buttons */
 .btn {
@@ -68,6 +75,8 @@ main {
   color: aliceblue;
   font-size: 1.3rem;
   cursor: pointer;
+  padding-bottom: 2.5em;
+  padding-top: 1em;
 }
 .btn #order {
   background-color: rgba(245, 222, 179, 0);
@@ -136,10 +145,22 @@ main {
     gap: 0.5em;
     align-items: center;
   }
+
   .front .ads {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
     padding-top: 0.5em;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ads span {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  .ads p {
+    font-size: 1rem;
+    font-style: italic;
   }
   /* buttons */
   .btn {
