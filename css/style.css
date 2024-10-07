@@ -150,7 +150,7 @@ main {
     font-size: 2rem;
     text-align: center;
     padding-top: 0.5em;
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: column;
   }
@@ -168,7 +168,7 @@ main {
     flex-direction: column;
     padding-top: 2em;
     gap: 1em;
-    width: 30%;
+    width: auto;
   }
   .btn button {
     border: none;
@@ -177,7 +177,7 @@ main {
     font-weight: 300;
     color: aliceblue;
     font-size: 0.5rem;
-    padding: 1em;
+    padding: 1em 2em;
     cursor: pointer;
   }
 }
